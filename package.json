@@ -24,6 +24,6 @@
 	"activationEvents": [],
 	"devDependencies": {
 		"@types/markdown-it": "^12.2.3",
-		"@tyren/markdown-it-dokapi": "^0.0.8"
+		"@tyren/markdown-it-dokapi": "^0.0.9"
 	}
 }
