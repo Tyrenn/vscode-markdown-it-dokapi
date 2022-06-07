@@ -1,11 +1,13 @@
 {
 	"name": "vscode-markdown-it-dokapi",
 	"version": "1.0.0",
-	"description": "vscode markdown-it-dokapi support",
-	"main": "./dist/src/",
+	"description": "vscode extension for markdown-it-dokapi support",
+	"main": "./dist/src/index.js",
+	"displayName": "Markdown Dokapi",
 	"categories": [
 		"Other"
 	],
+	"keywords": ["Markdown", "Markdown-it", "API", "Documentation", "Plugin"],
 	"engines": {
 		"vscode": "^1.67.0"
 	},
@@ -20,10 +22,19 @@
 		"build-ts": "tsc -p ./"
 	},
 	"author": "Guillaume Vailland (Tyren)",
+	"publisher": "Tyren",
 	"license": "MIT",
 	"activationEvents": [],
 	"devDependencies": {
 		"@types/markdown-it": "^12.2.3",
 		"@tyren/markdown-it-dokapi": "^0.0.9"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tyrenn/vscode-markdown-it-dokapi.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tyrenn/vscode-markdown-it-dokapi/issues"
+	},
+	"homepage": "https://github.com/tyrenn/vscode-markdown-it-dokapi#readme"
 }
