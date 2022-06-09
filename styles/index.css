@@ -47,6 +47,8 @@
 	margin: 0;
 	margin-right: 1em;
 	font-weight: 600;
+	min-width: 4em;
+	text-align: center;
 }
 
 .dokapi-route .dokapi-title h3.dokapi-path{

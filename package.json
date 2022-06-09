@@ -1,13 +1,19 @@
 {
 	"name": "vscode-markdown-it-dokapi",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "vscode extension for markdown-it-dokapi support",
 	"main": "./dist/src/index.js",
 	"displayName": "Markdown Dokapi",
 	"categories": [
 		"Other"
 	],
-	"keywords": ["Markdown", "Markdown-it", "API", "Documentation", "Plugin"],
+	"keywords": [
+		"Markdown",
+		"Markdown-it",
+		"API",
+		"Documentation",
+		"Plugin"
+	],
 	"engines": {
 		"vscode": "^1.67.0"
 	},
@@ -27,7 +33,10 @@
 	"activationEvents": [],
 	"devDependencies": {
 		"@types/markdown-it": "^12.2.3",
-		"@tyren/markdown-it-dokapi": "^0.0.9"
+		"typescript": "^4.7.3"
+	},
+	"dependencies": {
+		"@tyren/markdown-it-dokapi": "^0.0.12"
 	},
 	"repository": {
 		"type": "git",
